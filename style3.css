@@ -1,6 +1,6 @@
 body {
     background-color: wheat;
-    font-family: "futura";
+    font-family: "futura", arial, sans-serif;
     color: darkolivegreen;
     margin: 0;
     font-size: 24px;
@@ -35,6 +35,9 @@ img {
 a {
     text-decoration: none;
     color: darkgoldenrod;
+}
+
+.nav-bar a {
     white-space: nowrap;
 }
 
