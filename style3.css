@@ -52,6 +52,7 @@ img {
 
     box-sizing: border-box;
     background-color: burlywood;
+    border: 2px solid darkgoldenrod;
 }
 
 .nav-bar a {
