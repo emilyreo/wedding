@@ -3,56 +3,93 @@ body {
     font-family: "futura", arial, sans-serif;
     color: darkolivegreen;
     margin: 0;
-    font-size: 24px;
+    font-size: 1.1em;
     padding: 50px 20px;
     box-sizing: border-box;
 }
 
 img {
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     height: auto;
+    border-radius: 100%;
+    border: 3px solid burlywood;
+    margin: 20px 0px 50px;
 }
 
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 0 20px;
-    padding: 15px;
-    font-size: 14px;
+    gap: 0 30px;
+    padding: 15px 15px;
+    font-size: clamp(.6rem, 0.5rem + 1vw, 1.5rem);
     justify-content: center;
     text-transform: uppercase;
     width: 100%;
-    max-width: 900px;
-    margin: 50px auto -10px;
+    max-width: 800px;
+    margin: 25px auto;
     box-sizing: border-box;
-    column-gap: 20px;
-    row-gap: 0;
-    line-height: 0;
+    background-color: burlywood;
 }
 
 a {
-    text-decoration: none;
+    color: darkolivegreen;
+    text-decoration: underline;
+    
+}
+
+footer a {
+    color: darkgoldenrod;
+    font-size: clamp(.8rem, 0.6rem + 1.2vw, 1.8rem);
+}
+
+.contact a {
     color: darkgoldenrod;
 }
 
 .nav-bar a {
     white-space: nowrap;
+    text-decoration: none;
+    color: darkblue;
 }
 
 a:hover {
-    background-color: burlywood;
-    padding: 5px;
-    margin: -5px;
+    background-color: darkgoldenrod;
+    padding: 1px 3px;
+    margin: -1px -3px;
+}
+
+h1 {
+font-size: clamp(2rem, 1rem + 3vw, 4rem);
+color: darkolivegreen;
+}
+
+#details h2 {
+    font-size: clamp(.8rem, 0.6rem + 1.8vw, 2rem);
 }
 
 h2 {
+    font-size: clamp(1rem, 0.8rem + 2vw, 3rem);
     color: darkred;
+    margin-top: -4px;
 }
 
 h3 {
+    font-size: clamp(.8rem, 0.6rem + 1.5vw, 2rem);
     color: darkgoldenrod;
+}
+
+#top h2 {
+    font-size: clamp(1rem, 0.8rem + 2vw, 3rem);
+    color: darkred;
+    margin-top: -15px;
+}
+
+#top h3 {
+    font-size: clamp(.8rem, 0.6rem + 1.5vw, 2rem);
+    color: darkgoldenrod;
+    margin-top: -15px;
 }
 
 main {
@@ -61,9 +98,31 @@ main {
 
 .text-container {
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 750px;
+    margin: -3px auto;
+    padding: 0 10% 10px;
     text-align: center;
     box-sizing: border-box;
+    border: 3px solid burlywood;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.footer h2 {
+    font-size: clamp(.8rem, 0.6rem + 1.5vw, 2rem);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: -20px;
+}
+
+.copyright {
+    font-size: clamp(.3rem, 0.5rem + 1.2vw, 1.5rem);
+    margin-top: 50px;
 }
