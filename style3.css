@@ -142,7 +142,7 @@ main {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .footer h2 {
@@ -159,5 +159,5 @@ header {
 
 .copyright {
     font-size: clamp(.3rem, 0.5rem + 1.2vw, 1.5rem);
-    margin-top: 50px;
+    margin-top: 30px;
 }  
