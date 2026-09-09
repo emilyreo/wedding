@@ -58,7 +58,6 @@ img {
 .nav-bar a {
     white-space: nowrap;
 }
-
 .nav-row a {
     white-space: nowrap;
     text-decoration: none;
@@ -116,15 +115,21 @@ h3 {
 }
 
 #top h2 {
-    font-size: clamp(1rem, 0.8rem + 2vw, 3rem);
+    font-size: 4vw;
     color: darkred;
-    margin-top: -15px;
+    margin-bottom: 1vw;
 }
 
 #top h3 {
-    font-size: clamp(.8rem, 0.6rem + 1.5vw, 2rem);
+    font-size: 3vw;
     color: darkgoldenrod;
-    margin-top: -15px;
+    margin-bottom: 5vw;
+}
+
+#top h1 {
+    font-size: 5vw;
+    white-space: nowrap;
+    margin-bottom: 2vw;
 }
 
 main {
@@ -143,7 +148,6 @@ main {
 
 footer {
     margin-top: 30px;
-    margin-bottom: -10px;
 }
 
 .footer h2 {
@@ -160,5 +164,5 @@ header {
 
 .copyright {
     font-size: clamp(.3rem, 0.5rem + 1.2vw, 1.5rem);
-    margin-top: 50px;
-}  
+    margin-top: 30px;
+}
