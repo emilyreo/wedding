@@ -115,21 +115,21 @@ h3 {
 }
 
 #top h2 {
-    font-size: clamp(0.7rem, 4vw, 2.5rem);
+    font-size: clamp(0.8rem, 4vw, 2.5rem);
     color: darkred;
-    margin-bottom: -1vw;
+    margin-bottom: 0vw;
 }
 
 #top h3 {
-    font-size: clamp(0.5rem, 3vw, 2rem);
+    font-size: clamp(0.6rem, 3vw, 2rem);
     color: darkgoldenrod;
     margin-bottom: 3vw;
 }
 
 #top h1 {
-    font-size: clamp(0.9rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 3rem);
     white-space: nowrap;
-    margin-bottom: 1vw;
+    margin-bottom: 10px;
 }
 
 main {
