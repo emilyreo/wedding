@@ -40,13 +40,13 @@ img {
     align-items: center;
 
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
 
     margin: 50px auto 50px;
-    padding: 20px;
+    padding: 15px;
 
 
-    font-size: clamp(.6rem, 0.5rem + 1vw, 1.5rem);
+    font-size: clamp(.6rem, 0.4rem + 1vw, 1rem);
     text-transform: uppercase;
     line-height: 1.7;
 
@@ -64,7 +64,7 @@ img {
 }
 
 .nav-row a:hover {
-    background-color: darkgoldenrod;
+    background-color: darkgoldenrod
 }
 
 a {
@@ -132,7 +132,7 @@ main {
 
 .text-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: -3px auto;
     padding: 0 10% 10px;
     text-align: center;
